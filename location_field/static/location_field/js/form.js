@@ -239,7 +239,7 @@
                         'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                             maxZoom: 18,
                             accessToken: this.options.providerOptions.mapbox.access_token,
-                            id: 'mapbox.streets'
+                            id: 'mapbox.satellite'
                         });
                 }
 
